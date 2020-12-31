@@ -15,9 +15,8 @@ url = 'https://selfreport.shu.edu.cn/XueSFX/HalfdayReport.aspx?t=1'
 # browser = webdriver.Chrome()        # 打开chrome浏览器
 browser.get(url)
 
-# 信息
-username = '19720732'
-password = 'Zyf024532'
+username = 'xxxxxx' #学号
+password = 'xxxxxx' #密码
 temperature = '36.0'
 
 browser.find_element_by_id('username').send_keys(username)
